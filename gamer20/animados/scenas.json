@@ -1,0 +1,282 @@
+{
+  "aldea_regalo": {
+    "base": {
+      "src": "gamer20/animados/aldea_regalo_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/aldea_regalo_arm.png",
+      "style": "left:24.30939%;top:41.43646%;width:15.56169%;height:13.19061%;--px:81.550%;--py:87.665%;--a:-7deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/aldea_regalo_blink.png",
+      "style": "left:41.80479%;top:49.86188%;width:17.58748%;height:7.87293%"
+    }
+  },
+  "aventura_2": {
+    "base": {
+      "src": "gamer20/animados/aventura_2_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/aventura_2_arm.png",
+      "style": "left:17.03704%;top:45.00000%;width:22.96296%;height:24.02778%;--px:52.0%;--py:95.0%;--a:-14deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/aventura_2_blink.png",
+      "style": "left:30.92593%;top:51.94444%;width:19.07407%;height:8.47222%"
+    }
+  },
+  "brisa_invierno": {
+    "base": {
+      "src": "gamer20/animados/brisa_invierno_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/brisa_invierno_arm.png",
+      "style": "left:17.96296%;top:48.47222%;width:25.00000%;height:20.97222%;--px:52.0%;--py:95.0%;--a:-10deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/brisa_invierno_blink.png",
+      "style": "left:42.03704%;top:50.97222%;width:19.07407%;height:10.00000%"
+    }
+  },
+  "dulce_navidad": {
+    "base": {
+      "src": "gamer20/animados/dulce_navidad_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/dulce_navidad_arm.png",
+      "style": "left:70.00000%;top:54.02778%;width:17.96296%;height:19.02778%;--px:52.0%;--py:95.0%;--a:10deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/dulce_navidad_blink.png",
+      "style": "left:42.59259%;top:49.02778%;width:17.96296%;height:9.02778%"
+    }
+  },
+  "feliz_navidad_aldea": {
+    "base": {
+      "src": "gamer20/animados/feliz_navidad_aldea_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/feliz_navidad_aldea_arm.png",
+      "style": "left:22.28361%;top:38.46685%;width:18.50829%;height:16.16022%;--px:84.915%;--py:89.932%;--a:-9deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/feliz_navidad_aldea_blink.png",
+      "style": "left:39.31860%;top:39.22652%;width:13.53591%;height:7.59669%"
+    }
+  },
+  "feliz_navidad_aldea2": {
+    "base": {
+      "src": "gamer20/animados/feliz_navidad_aldea2_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/feliz_navidad_aldea2_arm.png",
+      "style": "left:18.23204%;top:37.43094%;width:23.57274%;height:19.19890%;--px:88.102%;--py:81.094%;--a:13deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/feliz_navidad_aldea2_blink.png",
+      "style": "left:39.13444%;top:40.60773%;width:13.53591%;height:5.87017%"
+    }
+  },
+  "feliz_navidad_nieve": {
+    "base": {
+      "src": "gamer20/animados/feliz_navidad_nieve_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/feliz_navidad_nieve_arm.png",
+      "style": "left:69.07407%;top:45.55556%;width:17.03704%;height:18.05556%;--px:52.0%;--py:95.0%;--a:14deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/feliz_navidad_nieve_blink.png",
+      "style": "left:41.48148%;top:42.50000%;width:15.92593%;height:10.00000%"
+    }
+  },
+  "feliz_navidad_pueblo": {
+    "base": {
+      "src": "gamer20/animados/feliz_navidad_pueblo_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/feliz_navidad_pueblo_arm.png",
+      "style": "left:22.28361%;top:40.46961%;width:19.52118%;height:18.16298%;--px:75.387%;--py:91.011%;--a:14deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/feliz_navidad_pueblo_blink.png",
+      "style": "left:43.46225%;top:44.88950%;width:14.18048%;height:7.32044%"
+    }
+  },
+  "gamer": {
+    "base": {
+      "src": "gamer20/animados/gamer_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/gamer_arm.png",
+      "style": "left:58.28729%;top:37.43094%;width:20.53407%;height:20.16575%;--px:13.211%;--py:92.082%;--a:-9deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/gamer_blink.png",
+      "style": "left:42.35727%;top:41.22928%;width:15.56169%;height:7.59669%"
+    }
+  },
+  "jengibre": {
+    "base": {
+      "src": "gamer20/animados/jengibre_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/jengibre_arm.png",
+      "style": "left:26.24309%;top:42.47238%;width:15.56169%;height:14.15746%;--px:94.828%;--py:67.298%;--a:12deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/jengibre_blink.png",
+      "style": "left:39.96317%;top:42.40331%;width:15.10129%;height:7.25138%"
+    }
+  },
+  "magia_traviesa": {
+    "base": {
+      "src": "gamer20/animados/magia_traviesa_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/magia_traviesa_arm.png",
+      "style": "left:68.51852%;top:50.55556%;width:19.07407%;height:20.00000%;--px:52.0%;--py:95.0%;--a:-12deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/magia_traviesa_blink.png",
+      "style": "left:39.07407%;top:50.00000%;width:19.07407%;height:9.02778%"
+    }
+  },
+  "muneco": {
+    "base": {
+      "src": "gamer20/animados/muneco_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/muneco_arm.png",
+      "style": "left:63.18359%;top:43.48958%;width:18.65234%;height:19.07552%;--px:20.461%;--py:81.311%;--a:14deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/muneco_blink.png",
+      "style": "left:39.94141%;top:43.03385%;width:19.62891%;height:8.00781%"
+    }
+  },
+  "navidad_dorada": {
+    "base": {
+      "src": "gamer20/animados/navidad_dorada_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/navidad_dorada_arm.png",
+      "style": "left:47.23757%;top:37.43094%;width:17.58748%;height:17.19613%;--px:10.021%;--py:84.723%;--a:-8deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/navidad_dorada_blink.png",
+      "style": "left:34.16206%;top:37.91436%;width:11.78637%;height:5.52486%"
+    }
+  },
+  "navidad_gigante": {
+    "base": {
+      "src": "gamer20/animados/navidad_gigante_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/navidad_gigante_arm.png",
+      "style": "left:70.00000%;top:39.02778%;width:20.92593%;height:25.00000%;--px:52.0%;--py:95.0%;--a:15deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/navidad_gigante_blink.png",
+      "style": "left:43.51852%;top:42.50000%;width:17.96296%;height:9.02778%"
+    }
+  },
+  "navidad_magica": {
+    "base": {
+      "src": "gamer20/animados/navidad_magica_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/navidad_magica_arm.png",
+      "style": "left:23.29650%;top:38.46685%;width:18.50829%;height:17.12707%;--px:79.443%;--py:96.532%;--a:12deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/navidad_magica_blink.png",
+      "style": "left:41.06814%;top:40.05525%;width:13.99632%;height:6.97514%"
+    }
+  },
+  "navidad_nieve": {
+    "base": {
+      "src": "gamer20/animados/navidad_nieve_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/navidad_nieve_arm.png",
+      "style": "left:73.51852%;top:48.05556%;width:17.03704%;height:20.00000%;--px:52.0%;--py:95.0%;--a:-13deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/navidad_nieve_blink.png",
+      "style": "left:40.00000%;top:46.52778%;width:15.92593%;height:9.02778%"
+    }
+  },
+  "noche_esperanza": {
+    "base": {
+      "src": "gamer20/animados/noche_esperanza_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/noche_esperanza_arm.png",
+      "style": "left:66.48148%;top:45.00000%;width:22.96296%;height:25.00000%;--px:52.0%;--py:95.0%;--a:11deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/noche_esperanza_blink.png",
+      "style": "left:39.44444%;top:50.00000%;width:19.07407%;height:9.02778%"
+    }
+  },
+  "regalo_villa": {
+    "base": {
+      "src": "gamer20/animados/regalo_villa_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/regalo_villa_arm.png",
+      "style": "left:67.96296%;top:50.97222%;width:20.92593%;height:20.97222%;--px:52.0%;--py:95.0%;--a:12deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/regalo_villa_blink.png",
+      "style": "left:42.96296%;top:53.05556%;width:19.07407%;height:8.47222%"
+    }
+  },
+  "reno": {
+    "base": {
+      "src": "gamer20/animados/reno_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/reno_arm.png",
+      "style": "left:26.24309%;top:41.43646%;width:16.57459%;height:18.16298%;--px:83.000%;--py:74.677%;--a:-8deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/reno_blink.png",
+      "style": "left:42.63352%;top:43.09392%;width:14.08840%;height:6.69890%"
+    }
+  },
+  "reno_alegria": {
+    "base": {
+      "src": "gamer20/animados/reno_alegria_base.webp",
+      "style": ""
+    },
+    "arm": {
+      "src": "gamer20/animados/reno_alegria_arm.png",
+      "style": "left:23.51852%;top:47.50000%;width:20.00000%;height:20.00000%;--px:52.0%;--py:95.0%;--a:-11deg"
+    },
+    "blink": {
+      "src": "gamer20/animados/reno_alegria_blink.png",
+      "style": "left:40.92593%;top:46.94444%;width:22.96296%;height:9.02778%"
+    }
+  }
+}

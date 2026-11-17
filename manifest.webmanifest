@@ -1,0 +1,13 @@
+{
+  "name": "SCALA Navidad · Tarjetas que se abren como un regalo",
+  "short_name": "SCALA Navidad",
+  "description": "Tarjetas de Navidad animadas con tu dedicatoria, listas para WhatsApp.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f4a2c",
+  "theme_color": "#0a3520",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

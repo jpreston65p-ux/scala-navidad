@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jpreston65p-ux.github.io/scala-navidad/sitemap.xml

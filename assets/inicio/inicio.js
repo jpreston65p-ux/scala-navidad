@@ -325,13 +325,11 @@ put('pxScene', scene.svg(5));
 put('pxPines', pine(3).svg(4) + pine(11).svg(3) + pine(19).svg(2));
 const snowmanGifts = new Pix(48, 38); snowmanGifts.blit(snowman(), 0, 0); snowmanGifts.blit(REGALO.verde(), 30, 24);
 put('pxSnowman', snowmanGifts.svg(3));
-// Portada, pasos, invitación al estudio y aviso
+// Portada, pasos y aviso
 put('sleigh', sleighScene().svg(3));
 put('heroHolly', holly().svg(4));
 put('heroBow', bow().svg(5));
 put('noticeBell', bell().svg(1));
-const studioArt = new Pix(42, 28); studioArt.blit(envelope(), 0, 6); studioArt.blit(REGALO.rojo(), 24, 9); studioArt.blit(holly(), 2, 0);
-put('studioArt', studioArt.svg(5));
 const STEP_SPRITES = { ornament: () => ornament(ESFERAS[0]).svg(4), envelope: () => envelope().svg(4), phone: () => phone().svg(3), gift: () => REGALO.rojo().svg(4) };
 document.querySelectorAll('[data-sprite]').forEach(n => { const f = STEP_SPRITES[n.dataset.sprite]; if (f) n.innerHTML = f(); });
 
@@ -472,10 +470,31 @@ function fillPrices(){
   if (!list.length) return;
   document.querySelectorAll('[data-price]').forEach(n => { const p = list.find(x => x.id === Number(n.dataset.price)); if (p && p.price) n.textContent = 'Bs ' + Math.round(p.price); });
   const live = list.find(x => x.id === 2001), prices = list.map(x => Number(x.price)).filter(x => x > 0);
-  if (live && live.price) { const t = 'Bs ' + Math.round(live.price); put('heroPrice', t); put('livePrice', t); put('liveCount', t); }
+  if (live && live.price) { const t = 'Bs ' + Math.round(live.price); put('heroPrice', t); put('livePrice', t); }
   if (prices.length) put('minPrice', 'Bs ' + Math.round(Math.min(...prices)));
 }
 fillPrices(); setTimeout(fillPrices, 1500); setTimeout(fillPrices, 5000);
+
+/* ---------- 8b. Pestañas «Animadas» y «Con imagen» ---------- */
+const tabs = [...document.querySelectorAll('.tab[data-tab]')];
+function showTab(id){
+  tabs.forEach(t => {
+    const on = t.dataset.tab === id;
+    t.classList.toggle('is-active', on); t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1;
+    const panel = byId(t.dataset.tab); if (panel) panel.hidden = !on;
+  });
+}
+tabs.forEach((t, i) => {
+  t.addEventListener('click', () => showTab(t.dataset.tab));
+  t.addEventListener('keydown', e => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    const n = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length];
+    showTab(n.dataset.tab); n.focus();
+  });
+});
+// Un enlace a #tienda abre directamente la pestaña «Con imagen»
+function tabFromHash(){ if (location.hash === '#tienda') { showTab('tienda'); byId('tarjetas')?.scrollIntoView(); } }
+window.addEventListener('hashchange', tabFromHash); tabFromHash();
 
 /* ---------- 9. El regalo de la portada se abre ---------- */
 const heroWrap = byId('heroWrap'), heroRewrap = byId('heroRewrap');

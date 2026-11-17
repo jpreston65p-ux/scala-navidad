@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Mountains+of+Christmas:wght@700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800;6..12,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/inicio/inicio.css?v=3">
+<link rel="stylesheet" href="assets/inicio/inicio.css?v=4">
 </head>
 <body>
 
@@ -66,9 +66,8 @@
     <a class="brand" href="#inicio" aria-label="SCALA Navidad, ir al inicio">SCALA<span aria-hidden="true">✳</span></a>
     <nav class="nav" aria-label="Secciones">
       <a href="#como-funciona">Cómo funciona</a>
-      <a href="#tarjetas">Animadas</a>
-      <a href="#tienda">Catálogo</a>
-      <a href="#precios">Precios</a>
+      <a href="#tarjetas">Tarjetas</a>
+      <a href="#pagos">Pagos</a>
       <a href="#preguntas">Ayuda</a>
     </nav>
     <div class="header-actions">
@@ -79,9 +78,7 @@
   </div>
   <nav class="mobile-nav" id="mobileNav" hidden aria-label="Menú">
     <a href="#como-funciona">✨ Cómo funciona</a>
-    <a href="#tarjetas">🎄 Tarjetas animadas</a>
-    <a href="#tienda">🎁 Catálogo por ocasión</a>
-    <a href="#precios">🏷️ Precios</a>
+    <a href="#tarjetas">🎄 Tarjetas</a>
     <a href="#pagos">💳 Pagos</a>
     <a href="#preguntas">❓ Ayuda</a>
     <a href="estudio/index.html">🖌️ Probar gratis</a>
@@ -104,16 +101,12 @@
   <div class="hero-text" data-reveal>
     <p class="ribbon">Navidad 2026</p>
     <h1>Tarjetas de Navidad que se abren <em>como un regalo</em></h1>
-    <p class="hero-lead">Elige un diseño, escribe tu dedicatoria y te la entregamos en <b>video de 30 segundos</b> con música. Lista para mandar por WhatsApp.</p>
+    <p class="hero-lead">Elige un diseño, escribe tu dedicatoria y te la entregamos en <b>video de 30 segundos</b> con música, lista para WhatsApp.</p>
     <div class="hero-buttons">
       <a class="btn btn-red btn-lg" href="#tarjetas"><svg class="icon"><use href="#i-gift"/></svg>Elegir mi tarjeta</a>
       <a class="btn btn-cream btn-lg" href="estudio/index.html"><svg class="icon"><use href="#i-pen"/></svg>Probar gratis</a>
     </div>
-    <dl class="hero-stats">
-      <div><dt>20</dt><dd>diseños animados</dd></div>
-      <div><dt>30 s</dt><dd>de música y nieve</dd></div>
-      <div><dt id="heroPrice">Bs 22</dt><dd>por tarjeta viva</dd></div>
-    </dl>
+    <p class="hero-note-line">Tarjetas animadas a <b id="heroPrice">Bs 22</b> · Pago con QR · Entrega por WhatsApp</p>
   </div>
 
   <div class="hero-gift-area" data-reveal>
@@ -132,20 +125,9 @@
       <span class="hero-holly" id="heroHolly" aria-hidden="true"></span>
     </div>
     <p class="hero-gift-caption" id="heroCaption">👆 Tócalo: así lo recibe quien tú quieras</p>
-    <div class="hero-gift-actions">
-      <button class="link-btn" id="heroRewrap" type="button" hidden>↺ Envolver otra vez</button>
-      <button class="link-btn" type="button" data-g20-view="2001">Personalizar esta tarjeta →</button>
-    </div>
+    <div class="hero-gift-actions"><button class="link-btn" id="heroRewrap" type="button" hidden>↺ Envolver otra vez</button></div>
   </div>
 </section>
-
-<!-- Barra de confianza -->
-<ul class="trust" aria-label="Por qué elegir SCALA">
-  <li><svg class="icon"><use href="#i-video"/></svg><span><b>Video MP4</b> que se ve en cualquier celular</span></li>
-  <li><svg class="icon"><use href="#i-pen"/></svg><span><b>Tu dedicatoria</b> escrita en la tarjeta</span></li>
-  <li><svg class="icon"><use href="#i-qr"/></svg><span><b>Pago con QR</b>: Yape, Banco Unión y más</span></li>
-  <li><svg class="icon"><use href="#i-lock"/></svg><span><b>Entrega privada</b> por enlace y WhatsApp</span></li>
-</ul>
 
 <!-- ============================================================
      2. CÓMO FUNCIONA
@@ -153,156 +135,71 @@
 <section class="paper" id="como-funciona">
   <div class="wrap">
     <div class="section-head" data-reveal>
-      <p class="ribbon ribbon-green">Así de fácil</p>
       <h2>¿Cómo <em>funciona</em>?</h2>
-      <p>Cuatro pasos y listo. No necesitas instalar nada.</p>
+      <p>Cuatro pasos. No necesitas instalar nada.</p>
     </div>
     <ol class="steps">
-      <li data-reveal><span class="step-icon" data-sprite="ornament"></span><span class="step-n">1</span><h3>Elige</h3><p>Escoge una de las 20 tarjetas vivas o busca en el catálogo.</p></li>
-      <li data-reveal><span class="step-icon" data-sprite="envelope"></span><span class="step-n">2</span><h3>Escribe</h3><p>Pon para quién es, tu mensaje y de parte de quién. Lo ves en vivo.</p></li>
-      <li data-reveal><span class="step-icon" data-sprite="phone"></span><span class="step-n">3</span><h3>Pide y paga</h3><p>Envía tu pedido por WhatsApp y paga con QR o enlace.</p></li>
-      <li data-reveal><span class="step-icon" data-sprite="gift"></span><span class="step-n">4</span><h3>Recibe</h3><p>Al confirmar tu pago te enviamos tu tarjeta en video.</p></li>
+      <li data-reveal><span class="step-icon" data-sprite="ornament"></span><span class="step-n">1</span><h3>Elige</h3><p>Una tarjeta animada o una con imagen.</p></li>
+      <li data-reveal><span class="step-icon" data-sprite="envelope"></span><span class="step-n">2</span><h3>Escribe</h3><p>Para quién es, tu mensaje y tu nombre.</p></li>
+      <li data-reveal><span class="step-icon" data-sprite="phone"></span><span class="step-n">3</span><h3>Pide y paga</h3><p>Envía tu pedido por WhatsApp y paga con QR.</p></li>
+      <li data-reveal><span class="step-icon" data-sprite="gift"></span><span class="step-n">4</span><h3>Recibe</h3><p>Te enviamos tu tarjeta lista para compartir.</p></li>
     </ol>
   </div>
 </section>
 
 <!-- ============================================================
-     3. TARJETAS ANIMADAS (las 20; las genera inicio.js)
+     3. ELIGE TU TARJETA (dos pestañas: animadas y con imagen)
      ============================================================ -->
 <section class="section" id="tarjetas">
   <div class="section-head" data-reveal>
-    <p class="ribbon">Colección 2026</p>
-    <h2>Tarjetas <em>animadas</em></h2>
-    <p>Nieve, un personaje que saluda y 30 segundos de música. Toca una para verla en movimiento y escribir tu dedicatoria.</p>
-    <p class="section-note"><b>20 diseños</b> · <b id="liveCount">Bs 22</b> cada una</p>
+    <h2>Elige tu <em>tarjeta</em></h2>
+    <p>Toca una tarjeta para verla, escribir tu dedicatoria y añadirla a tus regalos.</p>
   </div>
-  <div class="cards" id="cardsGrid"></div>
-  <div class="more"><button type="button" class="btn btn-cream" id="cardsMore" aria-expanded="false">Ver las 20 tarjetas ↓</button></div>
-</section>
 
-<!-- ============================================================
-     4. PROBAR GRATIS
-     ============================================================ -->
-<section class="studio-cta" data-reveal>
-  <div class="studio-art" id="studioArt" aria-hidden="true"></div>
-  <div>
-    <h2>¿Quieres ver cómo queda <em>antes de pedir</em>?</h2>
-    <p>Abre el estudio, escribe tu mensaje y mira tu tarjeta al instante. Es gratis.</p>
-    <a class="btn btn-green" href="estudio/index.html"><svg class="icon"><use href="#i-pen"/></svg>Abrir el estudio</a>
+  <div class="tabs" role="tablist" aria-label="Tipo de tarjeta">
+    <button type="button" class="tab is-active" role="tab" id="tabAnimadas" aria-selected="true" aria-controls="panelAnimadas" data-tab="panelAnimadas">
+      <strong>✨ Animadas</strong><small>20 videos · <span id="livePrice">Bs 22</span></small>
+    </button>
+    <button type="button" class="tab" role="tab" id="tabImagen" aria-selected="false" aria-controls="tienda" data-tab="tienda">
+      <strong>🖼️ Con imagen</strong><small>155 diseños · desde <span id="minPrice">Bs 15</span></small>
+    </button>
   </div>
-</section>
 
-<!-- ============================================================
-     5. CATÁLOGO: tarjetas con imagen, por ocasión (lo llena app.js)
-     ============================================================ -->
-<section class="section catalog" id="tienda">
-  <div class="catalog-head" data-reveal>
-    <div>
-      <p class="ribbon">Catálogo</p>
-      <h2>Tarjetas para <em>cada ocasión</em></h2>
-      <p class="catalog-sub">Tarjetas con imagen y tu dedicatoria. Elige una ocasión o busca por palabra.</p>
-    </div>
-    <p class="catalog-count" id="catalogCount">Cargando catálogo…</p>
+  <!-- Pestaña 1: las 20 tarjetas animadas (las genera inicio.js) -->
+  <div class="tab-panel" id="panelAnimadas" role="tabpanel" aria-labelledby="tabAnimadas">
+    <div class="cards" id="cardsGrid"></div>
+    <div class="more"><button type="button" class="btn btn-cream" id="cardsMore" aria-expanded="false">Ver las 20 tarjetas ↓</button></div>
   </div>
-  <div class="catalog-tools">
-    <div class="filter-tabs" id="filterTabs" role="group" aria-label="Filtrar por categoría"></div>
-    <div class="catalog-search">
-      <label class="search-box"><svg class="icon"><use href="#i-search"/></svg><input id="searchInput" type="search" placeholder="Busca: mamá, Jesús, 2027…" aria-label="Buscar tarjeta"></label>
-      <select id="sortSelect" aria-label="Ordenar">
-        <option value="destacadas">Destacadas</option>
-        <option value="menor">Precio: menor a mayor</option>
-        <option value="mayor">Precio: mayor a menor</option>
-        <option value="nombre">Nombre A–Z</option>
-      </select>
-    </div>
-  </div>
-  <div class="product-grid" id="productGrid" aria-live="polite"></div>
-  <div class="more"><button type="button" class="btn btn-cream" id="moreBtn" hidden>Ver más tarjetas ↓</button></div>
-  <p class="no-products" id="emptyProducts" hidden>No encontramos tarjetas con esa búsqueda. Prueba con otra palabra o categoría.</p>
-</section>
 
-<!-- ============================================================
-     6. PRECIOS CLAROS
-     ============================================================ -->
-<section class="paper" id="precios">
-  <div class="wrap">
-    <div class="section-head" data-reveal>
-      <p class="ribbon">Precios</p>
-      <h2>Sin <em>sorpresas</em></h2>
-      <p>Pagas una sola vez por cada tarjeta. Sin suscripciones.</p>
-    </div>
-    <div class="prices">
-      <article class="price-card" data-reveal>
-        <h3>Tarjeta con imagen</h3>
-        <p class="price">desde <b id="minPrice">Bs 20</b></p>
-        <ul>
-          <li><svg class="icon"><use href="#i-check"/></svg>Más de 150 diseños para cada ocasión</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Con tu dedicatoria</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Imagen lista para compartir</li>
-        </ul>
-        <a class="btn btn-outline" href="#tienda">Ver el catálogo</a>
-      </article>
-      <article class="price-card price-star" data-reveal>
-        <span class="price-badge"><svg class="icon"><use href="#i-star"/></svg>La favorita</span>
-        <h3>Tarjeta viva</h3>
-        <p class="price"><b id="livePrice">Bs 22</b></p>
-        <ul>
-          <li><svg class="icon"><use href="#i-check"/></svg>Elige 1 de los 20 diseños animados</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Nombre, mensaje y firma en la tarjeta</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Video MP4 de 30 s con música</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Entrega por WhatsApp y enlace privado</li>
-        </ul>
-        <a class="btn btn-red" href="#tarjetas"><svg class="icon"><use href="#i-gift"/></svg>Elegir mi tarjeta</a>
-      </article>
-      <article class="price-card" data-reveal>
-        <h3>Para empresas</h3>
-        <p class="price"><b>A tu medida</b></p>
-        <ul>
-          <li><svg class="icon"><use href="#i-check"/></svg>Varias tarjetas para tu equipo o clientes</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Con el nombre de tu empresa</li>
-          <li><svg class="icon"><use href="#i-check"/></svg>Te ayudamos a elegir</li>
-        </ul>
-        <a class="btn btn-outline" href="https://wa.me/59164926872?text=Hola%20SCALA%2C%20quiero%20tarjetas%20de%20Navidad%20para%20mi%20empresa" target="_blank" rel="noopener">Escríbenos</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     7. ASÍ LLEGA TU TARJETA
-     ============================================================ -->
-<section class="delivery">
-  <div class="delivery-text" data-reveal>
-    <p class="ribbon ribbon-green">La entrega</p>
-    <h2>Así llega a <em>su celular</em></h2>
-    <ul class="checks">
-      <li><svg class="icon"><use href="#i-video"/></svg><span><b>Video MP4 de 30 segundos</b> que se reproduce en cualquier celular.</span></li>
-      <li><svg class="icon"><use href="#i-music"/></svg><span><b>Con música</b>: «Noche de Paz» al piano, cascabeles, Papá Noel y una caja musical.</span></li>
-      <li><svg class="icon"><use href="#i-pen"/></svg><span><b>Con tu dedicatoria</b> escrita en la tarjeta: nombre, mensaje y firma.</span></li>
-      <li><svg class="icon"><use href="#i-chat"/></svg><span><b>Listo para compartir</b> por WhatsApp, Facebook o Instagram.</span></li>
-    </ul>
-  </div>
-  <div class="phone" data-reveal aria-label="Ejemplo de cómo se ve la tarjeta en un chat">
-    <div class="phone-top"><span class="phone-avatar">🎄</span><span><b>Mi familia</b><small>en línea</small></span></div>
-    <div class="phone-chat">
-      <p class="bubble bubble-in">¡Feliz Navidad! Te mandé un regalito 🎁</p>
-      <div class="bubble bubble-in bubble-video">
-        <span class="scala-live-tile"><img class="scala-live-base" src="gamer20/animados/muneco_base.webp" alt="" loading="lazy"><img class="scala-live-arm" src="gamer20/animados/muneco_arm.png" style="left:63.18359%;top:43.48958%;width:18.65234%;height:19.07552%;--px:20.461%;--py:81.311%;--a:14deg" alt="" loading="lazy"><img class="scala-live-blink" src="gamer20/animados/muneco_blink.png" style="left:39.94141%;top:43.03385%;width:19.62891%;height:8.00781%" alt="" loading="lazy"><span class="scala-live-snow"></span></span>
-        <span class="video-badge">▶ 0:30</span>
+  <!-- Pestaña 2: catálogo con imagen, por ocasión (lo llena app.js) -->
+  <div class="tab-panel catalog" id="tienda" role="tabpanel" aria-labelledby="tabImagen" hidden>
+    <div class="catalog-tools">
+      <div class="filter-tabs" id="filterTabs" role="group" aria-label="Filtrar por ocasión"></div>
+      <div class="catalog-search">
+        <label class="search-box"><svg class="icon"><use href="#i-search"/></svg><input id="searchInput" type="search" placeholder="Busca: mamá, Jesús, 2027…" aria-label="Buscar tarjeta"></label>
+        <select id="sortSelect" aria-label="Ordenar">
+          <option value="destacadas">Destacadas</option>
+          <option value="menor">Precio: menor a mayor</option>
+          <option value="mayor">Precio: mayor a menor</option>
+          <option value="nombre">Nombre A–Z</option>
+        </select>
+        <span class="catalog-count" id="catalogCount">Cargando…</span>
       </div>
     </div>
+    <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    <div class="more"><button type="button" class="btn btn-cream" id="moreBtn" hidden>Ver más tarjetas ↓</button></div>
+    <p class="no-products" id="emptyProducts" hidden>No encontramos tarjetas con esa búsqueda. Prueba con otra palabra u ocasión.</p>
   </div>
 </section>
 
 <!-- ============================================================
-     8. PAGOS
+     4. PAGOS
      ============================================================ -->
 <section class="paper" id="pagos">
   <div class="wrap pay">
     <div class="pay-intro" data-reveal>
-      <p class="ribbon ribbon-green">Pagos</p>
       <h2>Paga como <em>prefieras</em></h2>
-      <p>Toca un medio para ver su código QR. Después de pagar, envíanos tu comprobante y tu código de pedido por WhatsApp.</p>
+      <p>Toca un medio para ver su código QR. Después de pagar, envíanos el comprobante y tu código de pedido por WhatsApp.</p>
       <p class="pay-safe"><svg class="icon"><use href="#i-lock"/></svg>Revisamos cada pago a mano. Nunca te pediremos contraseñas ni códigos de tu banco.</p>
     </div>
     <div class="pay-list" data-reveal>
@@ -310,38 +207,23 @@
       <button type="button" class="payline" data-pay="union"><span class="pay-icon" style="--c:#0b5aa8">U</span><span><strong>Banco Unión</strong><small>Ver código QR</small></span><b>→</b></button>
       <button type="button" class="payline" data-pay="takenos"><span class="pay-icon" style="--c:#13917a">T</span><span><strong>Takenos</strong><small>QR con monto abierto</small></span><b>→</b></button>
       <a class="payline" href="https://app.joinpana.com/payments/p2p/0xrjmihj" target="_blank" rel="noopener"><span class="pay-icon" style="--c:#e2563a">P</span><span><strong>Pana</strong><small>Pagar con enlace</small></span><b>↗</b></a>
-      <div class="payline is-off"><span class="pay-icon" style="--c:#8a96a6">P</span><span><strong>PayPal</strong><small>Muy pronto</small></span></div>
     </div>
   </div>
 </section>
 
 <!-- ============================================================
-     9. PREGUNTAS FRECUENTES
+     5. PREGUNTAS FRECUENTES
      ============================================================ -->
 <section class="section faq" id="preguntas">
   <div class="section-head" data-reveal>
-    <p class="ribbon">Ayuda</p>
     <h2>Preguntas <em>frecuentes</em></h2>
   </div>
   <div class="faq-list" data-reveal>
-    <details open><summary>¿Cómo recibo mi tarjeta?</summary><p>Cuando confirmamos tu pago, preparamos la tarjeta con tu dedicatoria y te la enviamos por WhatsApp, junto con un enlace privado para descargarla.</p></details>
-    <details><summary>¿Puedo poner el nombre y el mensaje que yo quiera?</summary><p>Sí. Escribes para quién es, tu mensaje (hasta 125 letras) y de parte de quién. Puedes probarlo gratis en el <a href="estudio/index.html">estudio</a> antes de pedir.</p></details>
-    <details><summary>¿Cómo pago?</summary><p>Con Yape, Banco Unión o Takenos (por QR) o con Pana (por enlace). Guarda tu comprobante y envíalo por WhatsApp con tu código de pedido.</p></details>
-    <details><summary>¿Cuánto tarda la entrega?</summary><p>Preparamos tu tarjeta en cuanto confirmamos el pago. Si tienes una fecha especial, avísanos por WhatsApp y la tenemos lista a tiempo.</p></details>
-    <details><summary>¿Se puede enviar por WhatsApp?</summary><p>Sí. Las tarjetas vivas se entregan en video MP4 de 30 segundos con música, listo para WhatsApp, Facebook o Instagram.</p></details>
-    <details><summary>¿Es seguro?</summary><p>Revisamos cada pago a mano y nunca te pediremos contraseñas ni códigos bancarios. Tu nombre y tu WhatsApp solo se usan para entregarte el pedido.</p></details>
-  </div>
-</section>
-
-<!-- ============================================================
-     10. LLAMADO FINAL
-     ============================================================ -->
-<section class="final-cta" data-reveal>
-  <h2>Este año, regala algo que <em>se abra</em></h2>
-  <p>Elige tu tarjeta en un minuto. Nosotros nos encargamos del resto.</p>
-  <div class="final-buttons">
-    <a class="btn btn-red btn-lg" href="#tarjetas"><svg class="icon"><use href="#i-gift"/></svg>Elegir mi tarjeta</a>
-    <a class="btn btn-green btn-lg" href="https://wa.me/59164926872?text=Hola%20SCALA%2C%20quiero%20una%20tarjeta%20de%20Navidad" target="_blank" rel="noopener"><svg class="icon"><use href="#i-chat"/></svg>Pedir por WhatsApp</a>
+    <details open><summary>¿Cómo recibo mi tarjeta?</summary><p>Cuando confirmamos tu pago, preparamos la tarjeta con tu dedicatoria y te la enviamos por WhatsApp, con un enlace privado para descargarla.</p></details>
+    <details><summary>¿Qué diferencia hay entre animada y con imagen?</summary><p>La <b>animada</b> es un video de 30 segundos: cae la nieve, el personaje saluda y suena «Noche de Paz». La <b>con imagen</b> es una tarjeta fija con tu dedicatoria, ideal para compartir rápido.</p></details>
+    <details><summary>¿Puedo ver cómo queda antes de pedir?</summary><p>Sí. Al tocar una tarjeta animada escribes tu mensaje y lo ves en vivo. También puedes probar gratis en el <a href="estudio/index.html">estudio</a>.</p></details>
+    <details><summary>¿Cuánto tarda la entrega?</summary><p>La preparamos en cuanto confirmamos tu pago. Si tienes una fecha especial, avísanos por WhatsApp y la tenemos lista a tiempo.</p></details>
+    <details><summary>¿Hacen tarjetas para empresas?</summary><p>Sí, con el nombre de tu empresa y para todo tu equipo o clientes. <a href="https://wa.me/59164926872?text=Hola%20SCALA%2C%20quiero%20tarjetas%20de%20Navidad%20para%20mi%20empresa" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>.</p></details>
   </div>
 </section>
 
@@ -362,7 +244,7 @@
     </div>
     <nav aria-label="Enlaces">
       <a href="#tarjetas">Tarjetas</a>
-      <a href="#precios">Precios</a>
+      <a href="#pagos">Pagos</a>
       <a href="estudio/index.html">Probar gratis</a>
       <a href="politicas.html">Términos y privacidad</a>
       <a href="admin.html" data-local-only hidden>Panel del vendedor</a>
@@ -472,7 +354,7 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script defer src="catalogo-base.js"></script>
-<script defer src="app.js"></script>
-<script defer src="assets/inicio/inicio.js?v=3"></script>
+<script defer src="app.js?v=4"></script>
+<script defer src="assets/inicio/inicio.js?v=4"></script>
 </body>
 </html>

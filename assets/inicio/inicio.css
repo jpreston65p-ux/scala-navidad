@@ -369,7 +369,10 @@ main{position:relative;z-index:1}
 .kicker{display:inline-block;font:900 12px/1 var(--f-texto);letter-spacing:.1em;color:var(--rojo);text-transform:uppercase}
 .product-modal{width:min(1100px,100%);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr)}
 .modal-media{background:var(--pino) var(--tejido);display:flex;align-items:center;justify-content:center;min-width:0;padding:0}
-.modal-art-frame{width:100%;display:flex;flex-direction:column;gap:8px;align-items:center;padding:14px}
+.modal-art-frame{position:relative;z-index:1;width:100%;display:flex;flex-direction:column;gap:8px;align-items:center;padding:14px}
+/* Aviso mientras carga la tarjeta (queda detrás; la tarjeta lo tapa al aparecer) */
+.modal-media{position:relative}
+.modal-media::before{content:"🎁 Cargando tu tarjeta…";position:absolute;inset:0;display:grid;place-items:center;font:700 26px/1 var(--f-mano);color:#ffe9a8;animation:latido 1.2s ease-in-out infinite alternate}
 .modal-art-frame>img,.modal-art-frame>video{width:100%;max-height:78dvh;object-fit:contain;border-radius:14px;background:#000}
 .scala-game-frame{display:block;width:100%;height:min(78dvh,760px);min-height:440px;border:0;border-radius:14px;background:transparent}
 .scala-embedded-note{font:700 13.5px/1.4 var(--f-texto);text-align:center;color:#e2efe6;padding:0 10px 6px}
